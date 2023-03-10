@@ -4,7 +4,7 @@ plugins {
 	id 'eclipse'
 }
 
-group = 'es.mde'
+group = 'com.github.jlportus'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
 

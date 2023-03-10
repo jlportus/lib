@@ -1,4 +1,4 @@
-package com.miempresa.lib;
+package com.github.jlportus;
 
 public class PruebaLib {
 
