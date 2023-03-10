@@ -1,4 +1,4 @@
-package com.example.lib;
+package com.miempresa.lib;
 
 public class PruebaLib {
 
