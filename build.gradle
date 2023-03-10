@@ -2,11 +2,9 @@ plugins {
 	id 'java'
 	id 'java-library'
 	id 'eclipse'
-	//id 'org.springframework.boot' version '2.7.9'
-	//id 'io.spring.dependency-management' version '1.0.15.RELEASE'
 }
 
-group = 'com.miempresa'
+group = 'es.mde'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
 
@@ -15,19 +13,5 @@ repositories {
 }
 
 dependencies {
-	//implementation 'org.springframework.boot:spring-boot-starter'
-	//testImplementation 'org.springframework.boot:spring-boot-starter-test'
-}
-
-tasks.named('test') {
-	useJUnitPlatform()
-}
-
-task javadocJar(type: Jar, dependsOn: javadoc) {
-    classifier = 'javadoc'
-    from javadoc.destinationDir
-}
-
-artifacts {
-    archives javadocJar
+	
 }
